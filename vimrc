@@ -66,7 +66,9 @@ set nocompatible               " be iMproved
      set background=dark
      colorscheme solarized
  endif
- 
+
+ syntax on 
+
  set nu
  set ts=4
  set tabstop=4   " Set the default tabstop
