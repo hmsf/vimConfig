@@ -23,8 +23,8 @@ set nocompatible               " be iMproved
 	" Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 	" Bundle 'tpope/vim-rails.git'
 	Bundle 'kien/ctrlp.vim'
- 	Bundle 'scrooloose/nerdtree'
- 	Bundle 'SirVer/ultisnips'
+" 	Bundle 'scrooloose/nerdtree'
+ "	Bundle 'SirVer/ultisnips'
 " 	Bundle 'Valloric/YouCompleteMe'
 "	Bundle 'altercation/vim-colors-solarized'
  	" vim-scripts repos
@@ -37,7 +37,7 @@ set nocompatible               " be iMproved
  	" ...
 
 
-    "Bundle 'Syntastic' "uber awesome syntax and errors highlighter
+    Bundle 'Syntastic'
     "Bundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
     "Bundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
     "...All your other bundles...

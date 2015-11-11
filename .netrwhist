@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/hugo/.config/awesome/awesome34-themes/arch'
+let g:netrw_dirhist_2='/home/hugo'
+let g:netrw_dirhist_3='/home/hugo/Dropbox'
+let g:netrw_dirhist_4='/home/hugo/Dropbox/ist'
+let g:netrw_dirhist_5='/home/hugo/Dropbox/ist/PO'
+let g:netrw_dirhist_6='/home/hugo/Dropbox/ist/PO/projecto'
+let g:netrw_dirhist_7='/home/hugo/Dropbox/ist/PO/projecto/edt'
+let g:netrw_dirhist_8='/home/hugo/Dropbox/ist/PO/projecto/edt/core'
