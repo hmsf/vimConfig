@@ -65,6 +65,7 @@ set nocompatible               " be iMproved
  if has ('gui_running')
      set background=dark
      colorscheme solarized
+     set lines=999 columns=999
  endif
 
  syntax on 
