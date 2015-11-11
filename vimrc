@@ -89,7 +89,7 @@ set nocompatible               " be iMproved
  "visual
  set showmatch  " Show matching brackets.
  set matchtime=5  " Bracket blinking.
- set mouse-=a   " Disable mouse
+ "set mouse-=a   " Disable mouse
  set mousehide  " Hide mouse after chars typed
  
  set splitbelow
@@ -108,11 +108,14 @@ set nocompatible               " be iMproved
  
  map <C-Right> :bnext!<ENTER> 
  map <C-Left> :bprevious!<ENTER>
- map <C-h> <C-w>h 
- map <C-j> <C-w>j
- map <C-k> <C-w>k
- map <C-l> <C-w>l
- map <C-s> <C-w>s
- map <C-v> <C-w>v
- map <C-o> <C-w>o
- 
+" map <C-h> <C-w>h 
+" map <C-j> <C-w>j
+" map <C-k> <C-w>k
+" map <C-l> <C-w>l
+" map <C-s> <C-w>s
+" map <C-v> <C-w>v
+" map <C-o> <C-w>o
+ vmap <C-c> "+y
+ vmap <C-x> "+c
+ vmap <C-v> c<ESC>"+p
+ imap <C-v> <C-r><C-o>+
