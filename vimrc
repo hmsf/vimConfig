@@ -37,7 +37,7 @@ set nocompatible               " be iMproved
  	" ...
 
 
-    Bundle 'Syntastic'
+   " Bundle 'Syntastic'
     "Bundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
     "Bundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
     "...All your other bundles...
